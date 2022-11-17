@@ -10,6 +10,13 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
+    "globals": {
+        "angular": true,
+        "_": true,
+        "$": true
+    },
+
     "rules": {
+        "semi":"warn"
     }
 }
