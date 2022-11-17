@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "flow": "flow",
-    "build": "babel src/ -d lib/"
+    "build": "babel  ./docs-web/src/main/webapp/src/app/docs/controller/settings -d lib/"
   },
   "devDependencies": {
     "@babel/cli": "^7.19.3",
